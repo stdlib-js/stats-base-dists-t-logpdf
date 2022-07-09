@@ -72,7 +72,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.logpdf;
+})();
 })();
 </script>
 ```
@@ -153,6 +155,7 @@ y = mylogpdf( 1.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-logpdf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var v;
 var x;
@@ -166,6 +169,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'x: %d, v: %d, ln(f(x;v)): %d', x, v, y );
 }
 
+})();
 })();
 </script>
 </body>
