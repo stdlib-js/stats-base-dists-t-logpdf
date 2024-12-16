@@ -2,6 +2,63 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-12-16)
+
+<section class="features">
+
+### Features
+
+-   [`ad7c388`](https://github.com/stdlib-js/stdlib/commit/ad7c3880af37bccd159b6623f92d4b0212eaf0db) - add C implementation for `stats/base/dists/t/logpdf` [(#3934)](https://github.com/stdlib-js/stdlib/pull/3934)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3873](https://github.com/stdlib-js/stdlib/issues/3873)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ad7c388`](https://github.com/stdlib-js/stdlib/commit/ad7c3880af37bccd159b6623f92d4b0212eaf0db) - **feat:** add C implementation for `stats/base/dists/t/logpdf` [(#3934)](https://github.com/stdlib-js/stdlib/pull/3934) _(by Aadish Jain, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Aadish Jain
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
