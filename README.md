@@ -65,13 +65,13 @@ where `v > 0` is the degrees of freedom.
 ## Usage
 
 ```javascript
-import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-logpdf@esm/index.mjs';
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-logpdf@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-logpdf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-logpdf@v0.3.1-esm/index.mjs';
 ```
 
 #### logpdf( x, v )
@@ -150,7 +150,7 @@ y = mylogpdf( 1.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-logpdf@esm/index.mjs';
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-logpdf@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
